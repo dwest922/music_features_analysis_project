@@ -3,6 +3,7 @@
 ## Project Overview
 
 This repository features an Extract, Transform and Load (ETL) pipeline with descriptive and visual analytics for a large music .csv dataset featuring music metadata from Kaggle and Mendeley Data. The project used Python with Visual Studio for extraction, transformation, loading, and data visualisations. The goal was to explore how music features change and trend over time.
+Originally, this project was supposed to use the Spotify developer API and Million Song Database, but for the sake of a smaller and manageable dataset a local .csv of the mentioned sources was used instead.
 
 ## Objectives
 
@@ -10,6 +11,9 @@ This repository features an Extract, Transform and Load (ETL) pipeline with desc
 - Create static and interactive visualisations with Matplotlib, Seaborn, and Plotly.
 - Present key findings about song features and music quality trends.
 - Maintain clear documentation for ongoing development and reproducibility.
+
+## Hypothesis
+The hypothesis of the project is that loudness has increased over time. It's known in the audio engineering world that there has been a "loudness war" increasing over the past few decades. This analytical project would be able to visualise this purported trend.
 
 ## Dataset
 
@@ -23,13 +27,13 @@ This repository features an Extract, Transform and Load (ETL) pipeline with desc
 Load dataset from a local .csv file using Pandas.
 
 **Transform:**  
-Check and convert data types.
-Clean data by removing incomplete entries.  
-Add decade feature derived from release year.  
-Generate basic statistics and analytics.
+Checked and convert data types column by column.
+Clean data by dropping and removing incomplete entries into a cleaned dataset.  
+Make a "decade" column using the release year column.  
+Generated basic descriptive statistics and visual analytics.
 
 **Load:**  
-Save the cleaned DataFrame as `cleanedmusicdata.csv` for analysis
+Save the cleaned DataFrame as `cleanedmusicdata.csv` for analysis.
 
 ## Data Analysis and Visualisation
 
