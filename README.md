@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This repository features an Extract, Transform and Load (ETL) pipeline with descriptive and visual analytics for a large music .csv dataset featuring music metadata from Kaggle and Mendeley Data. The project used Python with Visual Studio for extraction, transformation, loading, and data visualisations. The goal was to explore how music features change and trend over time.
+This repository features an Extract, Transform and Load (ETL) pipeline with descriptive and visual analytics for a large music .csv dataset featuring music metadata from [Kaggle](https://www.kaggle.com/datasets/saurabhshahane/music-dataset-1950-to-2019) and [Mendeley Data](https://data.mendeley.com/datasets/3t9vbwxgr5/2). The project used Python with Visual Studio for extraction, transformation, loading, and data visualisations. The goal was to explore how music features change and trend over time, in particular loudness.
 Originally, this project was supposed to use the Spotify developer API and Million Song Database, but for the sake of a smaller and manageable dataset a local .csv of the mentioned sources was used instead.
 
 ## Objectives
