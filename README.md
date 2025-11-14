@@ -47,9 +47,18 @@ Calculate mean, median, count by year and decade for features like loudness and 
 ![Plot 1](visualisations/Average%20Loudness%20by%20Decade.png)
 
 - Bar plot: Number of tracks released per decade
-- Scatter plot: Tempo vs loudness (colour-coded by decade)
+![Plot 2](visualisations/Number%of%Tracks%per%Decade.png)
+
+- Scatter plot: Energy vs Loudness by Decade
+![Plot 3](visualisations/Energy%vs%Loudness%by%Decade.png)
+
 - Correlation heatmap for audio features
+![Plot 4](visualisations/Music%Feature%Correlation%Heatmap.png)
+
 - Interactive Plotly charts for feature relationships
+![Plot 5](visualisations/Loudness%vs%Energy%Static%Image.png)
+![Plot 6](visualisations/Loudness%Distribution%by%Decade%Static%Image.png)
+
 
 ## Key Findings
 
