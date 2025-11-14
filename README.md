@@ -56,12 +56,6 @@ Calculate mean, median, count by year and decade for features like loudness and 
 - The number of music releases increases significantly from the 1950s to the 2010s
 - Relationships identified between several music features
 
-## Code Organisation
-
-- Well-commented Jupyter Notebook for all code and analysis
-- Consistent, descriptive file naming (lowercase, no spaces or capitals)
-- Version control via GitHub
-
 ## How to Use
 
 1. Clone or download this repository
