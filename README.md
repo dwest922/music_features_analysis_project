@@ -2,31 +2,31 @@
 
 ## Project Overview
 
-This repository presents an ETL pipeline and descriptive analytics for a large music dataset. The project applies Python for extraction, transformation, loading, and data visualisations, with the goal of revealing trends in music features over time.
+This repository features an Extract, Transform and Load (ETL) pipeline with descriptive and visual analytics for a large music .csv dataset featuring music metadata from Kaggle and Mendeley Data. The project used Python with Visual Studio for extraction, transformation, loading, and data visualisations. The goal was to explore how music features change and trend over time.
 
 ## Objectives
 
 - Design and implement a reproducible Python ETL pipeline.
 - Create static and interactive visualisations with Matplotlib, Seaborn, and Plotly.
-- Present key findings about audio features and music release trends.
+- Present key findings about song features and music quality trends.
 - Maintain clear documentation for ongoing development and reproducibility.
 
 ## Dataset
 
-- Source: .csv file of music features from Kaggle and Mendeley Data (over 28,000 tracks)
-- Columns include: artist, track, release date, genre, lyrics, loudness, energy, danceability, and more
-- Rows with missing values in important columns are dropped as part of preprocessing
+- Source: .csv file of music features from Kaggle and Mendeley Data with around 28,000 tracks.
+- Columns with both strings and integers include: artist, track, release date, genre, lyrics, loudness, energy, danceability.
+- Rows with missing values in important columns are dropped as part of dartaset cleansing.
 
 ## ETL Pipeline
 
 **Extract:**  
-Load dataset from local CSV file using Pandas
+Load dataset from a local .csv file using Pandas.
 
 **Transform:**  
-Check and convert data types  
-Clean data by removing incomplete entries  
-Add decade feature derived from release year  
-Generate basic statistics and analytics
+Check and convert data types.
+Clean data by removing incomplete entries.  
+Add decade feature derived from release year.  
+Generate basic statistics and analytics.
 
 **Load:**  
 Save the cleaned DataFrame as `cleanedmusicdata.csv` for analysis
