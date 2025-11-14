@@ -77,11 +77,5 @@ Calculate mean, median, count by year and decade for features like loudness and 
 
 ## Attribution
 
-- Source dataset: [Kaggle](https://www.kaggle.com/)
+- Source dataset: [Kaggle](https://www.kaggle.com/datasets/saurabhshahane/music-dataset-1950-to-2019) and [Mendeley Data](https://data.mendeley.com/datasets/3t9vbwxgr5/2)
 - All external code is properly attributed per license requirements
-
-## Maintainers
-
-- ETL and Data Cleaning: Data Analyst
-- Visualisation: Data Analyst
-- Project Management and Documentation: Project Lead
